@@ -25,6 +25,7 @@ procent = ['10.50%', '20.00%', '13.00%']
 wage = [28_000, 31_000, 41_000]
 pprint(generation_dict(names, procent, wage))
 
+
 # Создайте функцию генератор чисел Фибоначчи
 def nums_fibonacci(n: int) -> list[int]:
     if n < 0:
